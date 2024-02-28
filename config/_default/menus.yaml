@@ -14,122 +14,122 @@ main:
 
   # About tab
   - name: About
-    weight: 1
+    weight: 10
   - name: Objectives
     pageRef: about/objectives
-    weight: 1
+    weight: 10
     parent: About
   - name: Consortium
     pageRef: about/consortium
-    weight: 2
+    weight: 20
     parent: About
   - name: Workpackage Overview
     pageRef: /workpackages
-    weight: 3
+    weight: 30
     parent: About
     identifer: workpackages
   - name: WP1 - Network
     pageRef: workpackages/01_Framework_European_Network
-    weight: 4
+    weight: 40
     identifer: WP1
     parent: About
   - name: WP2 - Best Practice
     pageRef: workpackages/02_Best_Practices
-    weight: 5
+    weight: 50
     identifer: WP2
     parent: About
   - name: WP3 - Tools and Services
     pageRef: workpackages/03_Tools_and_Services
-    weight: 6
+    weight: 60
     identifer: WP3
     parent: About
   - name: WP4 - Pilots and Drivers
     pageRef: workpackages/04_Pilots_and_Drivers
-    weight: 7
+    weight: 70
     identifer: WP4
     parent: About
   - name: WP5 - Capacity and Recognition
     pageRef: workpackages/05_Capacity_and_Recognition
-    weight: 8
+    weight: 80
     identifer: WP5
     parent: About
   - name: WP6 - Project Management
     pageRef: workpackages/06_Project_Management
-    weight: 9
+    weight: 90
     identifer: WP6
     parent: About
 
   # Services tab
   - name: Services
-    weight: 2
+    weight: 20
   - name: RSQkit
-    weight: 1
+    weight: 10
     pageRef: services/RSQkit
     parent: Services
   - name: SMP
-    weight: 2
+    weight: 20
     pageRef: services/SMP
     parent: Services
 
   # Training tab
   - name: Training
-    weight: 3
+    weight: 30
   - name: Training Events
-    weight: 1
+    weight: 10
     pageRef: training/events
     parent: Training
   - name: Training Materials
-    weight: 2
+    weight: 20
     pageRef: training/material
     parent: Training
   - name: Recognition
-    weight: 3
+    weight: 30
     pageRef: training/recognition
     parent: Training
 
   # Resources tab
   - name: Resources
-    weight: 4
+    weight: 40
   - name: Deliverables and Milestones
-    weight: 1
+    weight: 10
     pageRef: resources/deliverables_milestones
     parent: Resources
   - name: Presentations
-    weight: 2
+    weight: 20
     pageRef: resources/presentations
     parent: Resources
   - name: Visual Identity
-    weight: 3
+    weight: 30
     pageRef: resources/visual_identity
     parent: Resources
   - name: Zotero and Zenodo
-    weight: 4
+    weight: 40
     pageRef: resources/zetoro_zenodo
     parent: Resources
 
   # Network tab
   - name: Network
-    weight: 5
+    weight: 50
   - name: Communities
-    weight: 1
+    weight: 10
     pageRef: network/communities
     parent: Network
   - name: Competence Centres
-    weight: 2
+    weight: 20
     pageRef: network/competence_centres
     parent: Network
   
   # Participate tab
   - name: Participate
-    weight: 6
+    weight: 60
   - name: How to Join
     pageRef: participate/how_to_join
-    weight: 1
+    weight: 10
     parent: Participate
 
   # News tab
   - name: News
-    weight: 7
+    weight: 70
     pageRef: news
 
 
@@ -154,7 +154,7 @@ footer:
     url: https://zenodo.org/communities/everse
     pre: zenodo
     weight: 140
-  - name: Twitter
+  - name: X (Twitter)
     url: https://twitter.com/eosc_everse
-    pre: twitter
+    pre: x-twitter
     weight: 130
