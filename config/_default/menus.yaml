@@ -11,120 +11,127 @@
 # ordered by weight from lowest to highest.
 
 main:
+
+  # About tab
   - name: About
-    weight: 10
+    weight: 1
   - name: Objectives
     pageRef: about/objectives
-    weight: 10
+    weight: 1
     parent: About
   - name: Consortium
     pageRef: about/consortium
-    weight: 20
+    weight: 2
     parent: About
-
   - name: Workpackage Overview
     pageRef: /workpackages
-    weight: 100
+    weight: 3
     parent: About
     identifer: workpackages
   - name: WP1 - Network
     pageRef: workpackages/01_Framework_European_Network
-    weight: 110
+    weight: 4
     identifer: WP1
     parent: About
   - name: WP2 - Best Practice
     pageRef: workpackages/02_Best_Practices
-    weight: 120
+    weight: 5
     identifer: WP2
     parent: About
   - name: WP3 - Tools and Services
     pageRef: workpackages/03_Tools_and_Services
-    weight: 130
+    weight: 6
     identifer: WP3
     parent: About
   - name: WP4 - Pilots and Drivers
     pageRef: workpackages/04_Pilots_and_Drivers
-    weight: 140
+    weight: 7
     identifer: WP4
     parent: About
   - name: WP5 - Capacity and Recognition
     pageRef: workpackages/05_Capacity_and_Recognition
-    weight: 150
+    weight: 8
     identifer: WP5
     parent: About
   - name: WP6 - Project Management
     pageRef: workpackages/06_Project_Management
-    weight: 160
+    weight: 9
     identifer: WP6
     parent: About
 
-  - name: News
-    weight: 20
-    pageRef: news
-
+  # Services tab
   - name: Services
-    weight: 60
+    weight: 2
   - name: RSQkit
-    weight: 10
+    weight: 1
     pageRef: services/RSQkit
     parent: Services
   - name: SMP
-    weight: 20
+    weight: 2
     pageRef: services/SMP
     parent: Services
 
-
+  # Training tab
   - name: Training
-    weight: 80
+    weight: 3
   - name: Training Events
-    weight: 10
+    weight: 1
     pageRef: training/events
     parent: Training
   - name: Training Materials
-    weight: 20
+    weight: 2
     pageRef: training/material
     parent: Training
   - name: Recognition
-    weight: 30
+    weight: 3
     pageRef: training/recognition
     parent: Training
 
+  # Resources tab
   - name: Resources
-    weight: 100
+    weight: 4
   - name: Deliverables and Milestones
-    weight: 10
+    weight: 1
     pageRef: resources/deliverables_milestones
     parent: Resources
   - name: Presentations
-    weight: 20
+    weight: 2
     pageRef: resources/presentations
     parent: Resources
   - name: Visual Identity
-    weight: 30
+    weight: 3
     pageRef: resources/visual_identity
     parent: Resources
   - name: Zotero and Zenodo
-    weight: 40
+    weight: 4
     pageRef: resources/zetoro_zenodo
     parent: Resources
 
+  # Network tab
   - name: Network
-    weight: 120
+    weight: 5
   - name: Communities
-    weight: 10
+    weight: 1
     pageRef: network/communities
     parent: Network
   - name: Competence Centres
-    weight: 20
+    weight: 2
     pageRef: network/competence_centres
     parent: Network
   
+  # Participate tab
   - name: Participate
-    weight: 140
+    weight: 6
   - name: How to Join
     pageRef: participate/how_to_join
-    weight: 10
+    weight: 1
     parent: Participate
+
+  # News tab
+  - name: News
+    weight: 7
+    pageRef: news
+
 
 footer:
   - name: GitHub
