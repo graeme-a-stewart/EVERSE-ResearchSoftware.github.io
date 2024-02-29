@@ -134,27 +134,27 @@ main:
 
 
 footer:
-  - name: GitHub
-    url: https://github.com/EVERSE-ResearchSoftware
-    pre: github
-    weight: 110
-  # - name: Mastodon
-  #   url: https://mastodon.instance/@username
-  #   pre: mastodon
-  #   weight: 110
   - name: Email
     url: mailto:everse-request@lists.certh.gr
     pre: email
     weight: 100
+  - name: GitHub
+    url: https://github.com/EVERSE-ResearchSoftware
+    pre: github
+    weight: 110
   - name: LinkedIn
     url: https://www.linkedin.com/company/eosc-everse
     pre: linkedin
     weight: 120
+  # - name: Mastodon
+  #   url: https://mastodon.instance/@username
+  #   pre: mastodon
+  #   weight: 110
+  - name: X-Twitter
+    url: https://twitter.com/eosc_everse
+    pre: x-twitter
+    weight: 130
   - name: Zenodo
     url: https://zenodo.org/communities/everse
     pre: zenodo
     weight: 140
-  - name: X (Twitter)
-    url: https://twitter.com/eosc_everse
-    pre: x-twitter
-    weight: 130
